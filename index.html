@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sabor Urbano | Restaurante</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Sabor Urbano</h1>
+      <p>Disfruta de una experiencia gastronómica única</p>
+      <a href="#menu" class="btn">Ver Menú</a>
+    </div>
+  </header>
+
+  <!-- Sobre Nosotros -->
+  <section id="sobre-nosotros" class="section">
+    <div class="container">
+      <h2>Sobre Nosotros</h2>
+      <p>Somos un restaurante apasionado por la cocina urbana, mezclando sabores tradicionales con un toque moderno. Nuestra misión es ofrecer platos deliciosos en un ambiente acogedor y contemporáneo.</p>
+    </div>
+  </section>
+
+  <!-- Menú -->
+  <section id="menu" class="section">
+    <div class="container">
+      <h2>Menú Destacado</h2>
+      <div class="menu-items">
+        <div class="menu-item">
+          <img src="img/hamburguesa.jpg" alt="Hamburguesa Gourmet">
+          <h3>Hamburguesa Gourmet</h3>
+          <p>$8.50</p>
+        </div>
+        <div class="menu-item">
+          <img src="img/pizza.jpg" alt="Pizza Artesanal">
+          <h3>Pizza Artesanal</h3>
+          <p>$9.90</p>
+        </div>
+        <div class="menu-item">
+          <img src="img/ensalada.jpg" alt="Ensalada Urbana">
+          <h3>Ensalada Urbana</h3>
+          <p>$6.75</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria" class="section">
+    <div class="container">
+      <h2>Galería</h2>
+      <div class="galeria-grid">
+        <img src="img/galeria1.jpg" alt="Interior del restaurante">
+        <img src="img/galeria2.jpg" alt="Plato especial">
+        <img src="img/galeria3.jpg" alt="Ambiente del local">
+        <img src="img/galeria4.jpg" alt="Cocina en acción">
+      </div>
+    </div>
+  </section>
+
+ <section id="reservas" class="section">
+  <div class="container">
+    <h2>Reservas</h2>
+    <form id="form-reserva">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo" required>
+      <input type="tel" name="telefono" placeholder="Tu teléfono" required>
+      <input type="date" name="fecha" required>
+      <input type="time" name="hora" required>
+      <input type="number" name="personas" placeholder="Número de personas" required>
+      <textarea name="comentarios" placeholder="Comentarios adicionales"></textarea>
+      <button type="submit">Reservar ahora</button>
+    </form>
+    <p id="mensaje-confirmacion" style="display:none; color: green; margin-top: 10px;">¡Reserva enviada con éxito!</p>
+  </div>
+</section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="section">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>📍 Av. Gastronómica 123, Ciudad Gourmet</p>
+      <p>📞 (099) 123 4567</p>
+      <p>✉️ contacto@saborurbano.com</p>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Sabor Urbano. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
